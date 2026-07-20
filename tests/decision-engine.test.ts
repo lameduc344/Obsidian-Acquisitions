@@ -9,9 +9,9 @@ const baseDeal: DealInput = {
   targetAssignmentFee: 15_000,
   minimumAssignmentFee: 10_000,
   scenarios: {
-    conservative: { arv: 235_000, buyerPercentage: 0.72, repairs: 52_000 },
-    expected: { arv: 245_000, buyerPercentage: 0.75, repairs: 48_000 },
-    optimistic: { arv: 255_000, buyerPercentage: 0.78, repairs: 43_000 },
+    conservative: { arv: 245_000, buyerPercentage: 0.75, repairs: 48_000 },
+    expected: { arv: 250_000, buyerPercentage: 0.76, repairs: 45_000 },
+    optimistic: { arv: 260_000, buyerPercentage: 0.78, repairs: 42_000 },
   },
   seller: {
     titledOwnerConfirmed: true,
